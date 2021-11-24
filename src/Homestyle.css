@@ -1,6 +1,6 @@
 .homestyle{
       
-        background: #131313;
+        background: #d80606;
 }
 .maincontent{
             position:absolute;
@@ -12,6 +12,6 @@
 }
 .img-style {
         width: 411px;
-       border:20px solid black;
+       border:20px solid rgb(175, 24, 24);
        border-radius: 233px;
 }

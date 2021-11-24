@@ -40,13 +40,13 @@ export default function home() {
       <body>
 
 {/* <!-- preloader --> */}
-<div id="preloader">
+{/* <div id="preloader">
     <div id="loading-center">
         <div id="loading-center-absolute">
-            {/* <img src={preloader} alt=""/> */}
+            <img src={preloader} alt=""/>
         </div>
     </div>
-</div>
+</div> */}
 {/* <!-- preloader-end --> */}
 
 {/* <!-- header-area --> */}
@@ -92,7 +92,7 @@ export default function home() {
                                 <ul class="left">
                                 
                                     <li class="show"><a href="#">Home</a>
-                                        <ul class="submenu">
+                                        {/* <ul class="submenu">
                                             <li><a href="index-2.html">Home One</a></li>
                                             <li class="active"><a href="index-3.html">Home Two</a></li>
                                             <li><a href="index-4.html">Home Three</a></li>
@@ -100,31 +100,36 @@ export default function home() {
                                             <li><a href="index-5.html">Home Five</a></li>
                                             <li><a href="index-6.html">Home Six</a></li>
                                             <li><a href="index-7.html">Home Seven</a></li>
-                                        </ul>
+                                        </ul> */}
                                     </li>
                                     <li><Link to="About"> About </Link></li>
+                                    <li><Link to="Overview"> Overview </Link></li>
+                                    <li><Link to="Community"> Community </Link></li>
                                     {/* <li><a href="about-us.html">About</a></li> */}
-                                    <li><a href="game-overview.html">Overview</a></li>
-                                    <li><a href="community.html">Community</a></li>
+                                    {/* <li><a href="game-overview.html">Overview</a></li>
+                                    <li><a href="community.html">Community</a></li> */}
                                 </ul>
                                 <div class="logo">
                                     <a href="index-3.html"><img src={h3Logo} alt="Logo"/></a>
                                 </div>
                                 <ul class="right">
-                                    <li><a href="#">Pages</a>
+                                    {/* <li><a href="#">Pages</a>
                                         <ul class="submenu">
                                             <li><a href="upcoming-games.html">Upcoming Games</a></li>
                                             <li><a href="game-single.html">Game Single</a></li>
                                         </ul>
-                                    </li>
-                                    <li><a href="shop.html">Store</a></li>
-                                    <li><a href="#">Blog</a>
+                                    </li> */}
+                                    {/* <li><a href="shop.html">Store</a></li> */}
+                                    <li><Link to="Store"> Store </Link></li>
+                                    <li><Link to="Blog"> Blog </Link></li>
+                                    {/* <li><a href="#">Blog</a>
                                         <ul class="submenu">
                                             <li><a href="blog.html">News Page</a></li>
                                             <li><a href="blog-details.html">News Details</a></li>
                                         </ul>
-                                    </li>
-                                    <li><a href="contact.html">contact</a></li>
+                                    </li> */}
+                                    <li><Link to="Contact"> Contact </Link></li>
+                                    {/* <li><a href="contact.html">contact</a></li> */}
                                 </ul>
                             </div>
                             <div class="header-action">
