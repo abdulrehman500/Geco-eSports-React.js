@@ -1,0 +1,17 @@
+.homestyle{
+      
+        background: #131313;
+}
+.maincontent{
+            position:absolute;
+            top:150px;
+           left: 200px;
+            
+            
+         
+}
+.img-style {
+        width: 411px;
+       border:20px solid black;
+       border-radius: 233px;
+}
