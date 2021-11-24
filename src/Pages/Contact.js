@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import {Link} from 'react-router-dom';
 export default function Contact() {
     return (
@@ -61,7 +61,7 @@ export default function Contact() {
                             </div>
                             <div id="mobile-menu" class="navbar-wrap d-none d-lg-flex">
                                 <ul>
-                                   <li><Link to="Home"> Home </Link></li>
+                                   <li><Link to="/"> Home </Link></li>
                                     {/* <li><a href="#">Home</a>
                                         {/* <ul class="submenu">
                                             <li><a href="index-2.html">Home One</a></li>
@@ -85,13 +85,14 @@ export default function Contact() {
                                     {/* <li><a href="shop.html">Store</a></li> */}
                                     <li><Link to="Store">Store</Link></li>
                                     <li><Link to="Blog">Blog </Link></li>
+                                    <li><Link to="Contact">Contact </Link></li>
                                     {/* <li><a href="#">Blog</a>
                                         <ul class="submenu">
                                             <li><a href="blog.html">News Page</a></li>
                                             <li><a href="blog-details.html">News Details</a></li>
                                         </ul>
                                     </li> */}
-                                    <li class="show"><a href="contact.html">contact</a></li>
+                                    {/* <li class="show"><a href="contact.html">contact</a></li> */}
                                     {/* <li><Link to="About"> About </Link></li>
                                     <li><Link to="Overview"> Overview </Link></li>
                                     <li><Link to="Community"> Blog </Link></li> */}

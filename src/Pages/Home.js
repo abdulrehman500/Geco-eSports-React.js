@@ -91,7 +91,8 @@ export default function home() {
                             <div class="navbar-wrap d-none d-lg-flex">
                                 <ul class="left">
                                 
-                                    <li class="show"><a href="#">Home</a>
+                                    {/* <li class="show"><a href="#">Home</a> */}
+                                    <li class="show"><Link to="/"> Home </Link>
                                         {/* <ul class="submenu">
                                             <li><a href="index-2.html">Home One</a></li>
                                             <li class="active"><a href="index-3.html">Home Two</a></li>
