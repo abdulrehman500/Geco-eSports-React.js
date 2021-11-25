@@ -1,5 +1,6 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
+import h6Logo from "./img/logo/gamelogo.png";
 export default function Blog() {
     return (
         <div>
@@ -57,7 +58,7 @@ export default function Blog() {
                     <div class="main-menu menu-style-two">
                         <nav>
                             <div class="logo">
-                                <a href="index-2.html"><img src="img/logo/logo.png" alt="Logo"/></a>
+                                <a href="index-2.html"><img src={h6Logo} alt="Logo"/></a>
                             </div>
                             <div id="mobile-menu" class="navbar-wrap d-none d-lg-flex">
                                 <ul>

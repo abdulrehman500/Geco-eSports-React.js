@@ -1,6 +1,6 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
-
+import h6Logo from "./img/logo/gamelogo.png";
 export default function BlogDetails() {
     return (
         <div>
