@@ -1302,7 +1302,7 @@ ul.minicart .cart-price .new {
 	display: none;
 }
 .slider-style-two .slider-content h2 {
-	font-size: 90px;
+	font-size: 75px;
 	text-transform: capitalize;
 }
 .slider-style-two .slider-content p {
@@ -1470,11 +1470,24 @@ ul.minicart .cart-price .new {
     position: relative;
     z-index: 1;
 }
+.carousel-control-prev:hover, .carousel-control-prev:focus, .carousel-control-next:hover, .carousel-control-next:focus {
+
+    opacity: 0.0  !important;
+}
+.carousel-control-prev, .carousel-control-next {
+
+    opacity: 0.0 !important; 
+
+}
+.carousel-caption {
+    top: 15% !important;
+  
+}
 .home-four-slider .slider-bg {
     background-image: url(../img/slider/third_banner_bg.png);
     background-position: center;
     background-size: cover;
-    padding: 205px 0 205px;
+    padding: 125px 0 205px;
 }
 .home-four-slider .custom-container-two {
 	position: relative;

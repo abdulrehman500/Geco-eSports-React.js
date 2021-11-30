@@ -4,6 +4,10 @@ import React from 'react';
 import {Link} from 'react-router-dom';
 // import preloader from "./img/icon/preloader.svg";
 
+import streaming_bg from "./img/bg/streaming_bg.jpg";
+import streaming_bg02 from "./img/bg/streaming_bg02.jpg";
+import streaming_bg11 from "./img/bg/makes_chair_bg.jpg";
+// import streaming_bg11 from "./img/bg/banner1.";
 import h6Logo from "./img/logo/gamelogo.png";
 import mask1 from "./img/logo/mask1.png";
 import mask2 from "./img/logo/mask2.png";
@@ -60,8 +64,16 @@ export default function home() {
 {/* <!-- preloader-end --> */}
 
 {/* <!-- header-area --> */}
-<header class="header-style-four">
-    <div class="header-top-area s-header-top-area d-none d-lg-block">
+
+{/* <!-- header-area-end --> */}
+
+{/* <!-- main-area --> */}
+<main>
+
+    {/* <!-- slider-area --> */}
+    <section class="slider-area home-four-slider">
+    <header class="header-style-four">
+    {/* <div class="header-top-area s-header-top-area d-none d-lg-block">
         <div class="container custom-container-two">
             <div class="row align-items-center">
                 <div class="col-lg-6 d-none d-lg-block">
@@ -83,7 +95,7 @@ export default function home() {
                 </div>
             </div>
         </div>
-    </div>
+    </div> */}
     <div id="sticky-header" class="header-four-wrap">
         <div class="container custom-container-two">
             <div class="row">
@@ -95,87 +107,26 @@ export default function home() {
                             </div>
                             <div id="mobile-menu" class="navbar-wrap d-none d-lg-flex">
                                 <ul>
-                                   <li><Link to="/"> Home </Link></li>
-                                    {/* <li><a href="#">Home</a>
-                                        {/* <ul class="submenu">
-                                            <li><a href="index-2.html">Home One</a></li>
-                                            <li><a href="index-3.html">Home Two</a></li>
-                                            <li><a href="index-4.html">Home Three</a></li>
-                                            <li><a href="index.html">Home Four</a></li>
-                                            <li><a href="index-5.html">Home Five</a></li>
-                                            <li><a href="index-6.html">Home Six</a></li>
-                                            <li><a href="index-7.html">Home Seven</a></li>
-                                        </ul> */}
-                                    {/* </li> */} 
-                                    {/* <li><a href="#">Pages</a>
-                                        <ul class="submenu">
-                                            <li><a href="about-us.html">About Story</a></li>
-                                            <li><a href="upcoming-games.html">Upcoming Games</a></li>
-                                            <li><a href="game-single.html">Game Single</a></li>
-                                        </ul>
-                                    </li> */}
+                                    <li><Link to="/"> Home </Link></li>
                                     <li><Link to="Overview">Overview</Link></li>
                                     <li><Link to="Community">Community</Link></li>
-                                    {/* <li><a href="shop.html">Store</a></li> */}
                                     <li><Link to="Store">Store</Link></li>
                                     <li><Link to="Blog">Blog </Link></li>
                                     <li><Link to="Contact">Contact </Link></li>
-                                    {/* <li><a href="#">Blog</a>
-                                        <ul class="submenu">
-                                            <li><a href="blog.html">News Page</a></li>
-                                            <li><a href="blog-details.html">News Details</a></li>
-                                        </ul>
-                                    </li> */}
-                                    {/* <li class="show"><a href="contact.html">contact</a></li> */}
-                                    {/* <li><Link to="About"> About </Link></li>
-                                    <li><Link to="Overview"> Overview </Link></li>
-                                    <li><Link to="Community"> Blog </Link></li> */}
-                                    {/* <li><Link to="Contact"> Contact </Link></li> */}
+                            
                                 </ul>
                             </div>
+                            <div class="header-social">
+                       
+                        <ul>
+                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+                            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                        </ul>
+                    </div>
                             <div class="header-action">
-                                <ul>
-                                    <li class="header-shop-cart"><a href="#"><i class="fas fa-shopping-basket"></i><span>0</span></a>
-                                        <ul class="minicart">
-                                            <li class="d-flex align-items-start">
-                                                <div class="cart-img">
-                                                    <a href="#">
-                                                        <img src="img/product/cart_p01.jpg" alt=""/>
-                                                    </a>
-                                                </div>
-                                                <div class="cart-content">
-                                                    <h4>
-                                                        <a href="#">Xbox One Controller</a>
-                                                    </h4>
-                                                    <div class="cart-price">
-                                                        <span class="new">$229.9</span>
-                                                        <span>
-                                                            <del>$229.9</del>
-                                                        </span>
-                                                    </div>
-                                                </div>
-                                                <div class="del-icon">
-                                                    <a href="#">
-                                                        <i class="far fa-trash-alt"></i>
-                                                    </a>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="total-price">
-                                                    <span class="f-left">Total:</span>
-                                                    <span class="f-right">$239.9</span>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="checkout-link">
-                                                    <a href="cart.html">Shopping Cart</a>
-                                                    <a class="red-color" href="checkout.html">Checkout</a>
-                                                </div>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li class="header-search"><a href="#" data-toggle="modal" data-target="#search-modal"><i class="fas fa-search"></i></a></li>
-                                </ul>
+                               
                             </div>
                         </nav>
                     </div>
@@ -196,14 +147,51 @@ export default function home() {
         </div>
     </div>
 </header>
-{/* <!-- header-area-end --> */}
 
-{/* <!-- main-area --> */}
-<main>
+<div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+    <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src={streaming_bg02} class="d-block w-100" alt="..."/>
+      <div class="carousel-caption d-none d-md-block">
+      <div class="slider-content">
+                                <h6 data-animation="fadeInUp" data-delay=".4s">world gaming</h6>
+                                <h2 data-animation="fadeInUp" data-delay=".4s">Texas Hold 
+ <span>'em Poker</span> ONLINE</h2>
+                                <p data-animation="fadeInUp" data-delay=".6s">Find technology or people for digital projects in public sector.</p>
+                                <a href="#" class="btn btn-style-two" data-animation="fadeInUp" data-delay=".8s">READ MORE</a>
+                            </div>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src={streaming_bg} class="d-block w-100" alt="..."/>
+      <div class="carousel-caption d-none d-md-block">
+      <div class="slider-content">
+                                <h6 data-animation="fadeInUp" data-delay=".4s">world gaming</h6>
+                                <h2 data-animation="fadeInUp" data-delay=".4s">Texas Hold 
+ <span>'em Poker</span> ONLINE</h2>
+                                <p data-animation="fadeInUp" data-delay=".6s">Find technology or people for digital projects in public sector.</p>
+                                <a href="#" class="btn btn-style-two" data-animation="fadeInUp" data-delay=".8s">READ MORE</a>
+                            </div>
+      </div>
+    </div>
+ 
+  </div>
+  <button class="carousel-control-prev" type="button" data-target="#carouselExampleCaptions" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-target="#carouselExampleCaptions" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </button>
+</div>
+        {/* <div class="slider-active">
 
-    {/* <!-- slider-area --> */}
-    <section class="slider-area home-four-slider">
-        <div class="slider-active">
             <div class="single-slider slider-bg slider-style-two">
                 <div class="container custom-container-two">
                     <div class="row">
@@ -211,7 +199,7 @@ export default function home() {
                             <div class="slider-content">
                                 <h6 data-animation="fadeInUp" data-delay=".4s">world gaming</h6>
                                 <h2 data-animation="fadeInUp" data-delay=".4s">Texas Hold 
- <span>'em Poker</span> ONLINE</h2>
+                <span>'em Poker</span> ONLINE</h2>
                                 <p data-animation="fadeInUp" data-delay=".6s">Find technology or people for digital projects in public sector.</p>
                                 <a href="#" class="btn btn-style-two" data-animation="fadeInUp" data-delay=".8s">READ MORE</a>
                             </div>
@@ -221,7 +209,7 @@ export default function home() {
                 </div>
             </div>
          
-        </div>
+        </div> */}
     </section>
     {/* <!-- slider-area-end --> */}
 

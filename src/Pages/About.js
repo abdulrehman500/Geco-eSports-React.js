@@ -112,7 +112,7 @@ export default function About() {
                                                 </div>
                                                 <div class="cart-content">
                                                     <h4>
-                                                        <a href="#">Xbox One Controller</a>
+                                                        <a href="#">Xbox One Consstroller</a>
                                                     </h4>
                                                     <div class="cart-price">
                                                         <span class="new">$229.9</span>
