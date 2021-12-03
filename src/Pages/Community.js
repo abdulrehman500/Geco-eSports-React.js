@@ -1,6 +1,13 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
+import divider from "./img/bg/devider.png";
 import h6Logo from "./img/logo/gamelogo.png";
+// import desk-card1 from "./img/logo/gamelogo.png";
+
+import cardImg from "./img/darkcard.png";
+import cardImg1 from "./img/card22.png";
+import cardImg2 from "./img/card23.png";
+
 export default function Community() {
     return (
         <div>
@@ -17,379 +24,137 @@ export default function Community() {
 {/* <!-- preloader-end --> */}
 
 {/* <!-- header-area --> */}
-<header>
-    <div class="header-top-area s-header-top-area d-none d-lg-block">
-        <div class="container-fluid s-container-full-padding">
-            <div class="row align-items-center">
-                <div class="col-lg-6 d-none d-lg-block">
-                    <div class="header-top-offer">
-                        <p>Exclusive Black Friday ! Offer</p>
-                        <span class="coming-time" data-countdown="2021/3/15"></span>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="header-top-right">
-                        <div class="header-social">
-                            <ul>
-                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
-                                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                            </ul>
-                        </div>
-                        <div class="header-top-action">
-                            <ul>
-                                <li>
-                                    <div class="header-top-mail">
-                                        <p><span>|</span><i class="far fa-envelope"></i><a href="mailto:info@gmail.com">info@gecoinfo.com</a></p>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div id="sticky-header" class="transparent-header">
-        <div class="container-fluid s-container-full-padding">
-            <div class="row">
-                <div class="col-12">
-                    <div class="main-menu menu-style-two">
-                        <nav>
-                            <div class="logo">
-                                <a href="index-2.html"><img src={h6Logo} alt="Logo"/></a>
-                            </div>
-                            <div id="mobile-menu" class="navbar-wrap d-none d-lg-flex">
-                                <ul>
+<header class="header-style-four">
+   
+   <div id="sticky-header" class="header-four-wrap">
+       <div class="container custom-container-two">
+           <div class="row">
+               <div class="col-12">
+                   <div class="main-menu menu-style-two">
+                       <nav>
+                           <div class="logo">
+                               <a href="index-4.html"><img src={h6Logo} alt="Logo"/></a>
+                           </div>
+                           <div id="mobile-menu" class="navbar-wrap d-none d-lg-flex">
+                               <ul>
                                    <li><Link to="/"> Home </Link></li>
-                                    {/* <li><a href="#">Home</a>
-                                        {/* <ul class="submenu">
-                                            <li><a href="index-2.html">Home One</a></li>
-                                            <li><a href="index-3.html">Home Two</a></li>
-                                            <li><a href="index-4.html">Home Three</a></li>
-                                            <li><a href="index.html">Home Four</a></li>
-                                            <li><a href="index-5.html">Home Five</a></li>
-                                            <li><a href="index-6.html">Home Six</a></li>
-                                            <li><a href="index-7.html">Home Seven</a></li>
-                                        </ul> */}
-                                    {/* </li> */} 
-                                    {/* <li><a href="#">Pages</a>
-                                        <ul class="submenu">
-                                            <li><a href="about-us.html">About Story</a></li>
-                                            <li><a href="upcoming-games.html">Upcoming Games</a></li>
-                                            <li><a href="game-single.html">Game Single</a></li>
-                                        </ul>
-                                    </li> */}
-                                    <li><Link to="Overview">Overview</Link></li>
-                                    <li><Link to="Community">Community</Link></li>
-                                    {/* <li><a href="shop.html">Store</a></li> */}
-                                    <li><Link to="Store">Store</Link></li>
-                                    <li><Link to="Blog">Blog </Link></li>
-                                    <li><Link to="Contact">Contact </Link></li>
-                                    {/* <li><a href="#">Blog</a>
-                                        <ul class="submenu">
-                                            <li><a href="blog.html">News Page</a></li>
-                                            <li><a href="blog-details.html">News Details</a></li>
-                                        </ul>
-                                    </li> */}
-                                    {/* <li class="show"><a href="contact.html">contact</a></li> */}
-                                    {/* <li><Link to="About"> About </Link></li>
-                                    <li><Link to="Overview"> Overview </Link></li>
-                                    <li><Link to="Community"> Blog </Link></li> */}
-                                    {/* <li><Link to="Contact"> Contact </Link></li> */}
-                                </ul>
-                            </div>
-                            <div class="header-action">
-                                <ul>
-                                    <li class="header-shop-cart"><a href="#"><i class="fas fa-shopping-basket"></i><span>0</span></a>
-                                        <ul class="minicart">
-                                            <li class="d-flex align-items-start">
-                                                <div class="cart-img">
-                                                    <a href="#">
-                                                        <img src="img/product/cart_p01.jpg" alt=""/>
-                                                    </a>
-                                                </div>
-                                                <div class="cart-content">
-                                                    <h4>
-                                                        <a href="#">Xbox One Controller</a>
-                                                    </h4>
-                                                    <div class="cart-price">
-                                                        <span class="new">$229.9</span>
-                                                        <span>
-                                                            <del>$229.9</del>
-                                                        </span>
-                                                    </div>
-                                                </div>
-                                                <div class="del-icon">
-                                                    <a href="#">
-                                                        <i class="far fa-trash-alt"></i>
-                                                    </a>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="total-price">
-                                                    <span class="f-left">Total:</span>
-                                                    <span class="f-right">$239.9</span>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="checkout-link">
-                                                    <a href="cart.html">Shopping Cart</a>
-                                                    <a class="red-color" href="checkout.html">Checkout</a>
-                                                </div>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li class="header-search"><a href="#" data-toggle="modal" data-target="#search-modal"><i class="fas fa-search"></i></a></li>
-                                </ul>
-                            </div>
-                        </nav>
-                    </div>
-                    <div class="mobile-menu"></div>
-                </div>
-                {/* <!-- Modal Search --> */}
-                <div class="modal fade" id="search-modal" tabindex="-1" role="dialog" aria-hidden="true">
-                    <div class="modal-dialog" role="document">
-                        <div class="modal-content">
-                            <form>
-                                <input type="text" placeholder="Search here..."/>
-                                <button><i class="fa fa-search"></i></button>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+                                   <li><Link to="Contact">Contact US</Link></li>
+                                   <li><Link to="Community">Games  </Link></li>
+                                   <li><Link to="Wallet">Wallet</Link></li>
+                                   <li><Link to="Blog">Profile </Link></li>
+                                 
+                           
+                               </ul>
+                           </div>
+                           <div class="header-social">
+                      
+                       <ul>
+                           <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                           <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                           <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+                           <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                       </ul>
+                   </div>
+                           <div class="header-action">
+                              
+                           </div>
+                       </nav>
+                   </div>
+                   <div class="mobile-menu"></div>
+               </div>
+               {/* <!-- Modal Search --> */}
+               <div class="modal fade" id="search-modal" tabindex="-1" role="dialog" aria-hidden="true">
+                   <div class="modal-dialog" role="document">
+                       <div class="modal-content">
+                           <form>
+                               <input type="text" placeholder="Search here..."/>
+                               <button><i class="fa fa-search"></i></button>
+                           </form>
+                       </div>
+                   </div>
+               </div>
+           </div>
+       </div>
+   </div>
 </header>
 {/* <!-- header-area-end --> */}
 
 {/* <!-- main-area --> */}
 <main>
 
-    {/* <!-- breadcrumb-area --> */}
-    <section class="breadcrumb-area breadcrumb-bg">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <div class="breadcrumb-content text-center">
-                        <h2>Our <span>Community</span></h2>
-                        <nav aria-label="breadcrumb">
-                            <ol class="breadcrumb">
-                                <li class="breadcrumb-item"><a href="index-2.html">Home</a></li>
-                                <li class="breadcrumb-item"><a href="#">pages</a></li>
-                                <li class="breadcrumb-item active" aria-current="page">Community</li>
-                            </ol>
-                        </nav>
-                    </div>
-                </div>
-            </div>
+        <section>
+      <div class="container-fluid mb-5 mt-3">
+      <div class="section-texdt text-center mt-5 mb-5 pt-5 pb-5">
+            <h1 className="text-black-heading">JUST FEATURED GAMES</h1>
+            <p>Compete with 100 players on a remote island for winner takes showdown
+                knows issues where certain skin strategic</p>
+                <img src={divider} alt=""/>
         </div>
-    </section>
-    {/* <!-- breadcrumb-area-end --> */}
 
-    {/* <!-- community-area --> */}
-    <div class="community-area primary-bg pt-120 pb-175">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8">
-                    <div class="community-wrap">
-                        <div class="table-responsive-xl">
-                            <table class="table mt-0">
-                                <thead>
-                                    <tr>
-                                        <th scope="col">mark all as soon</th>
-                                        <th scope="col">VOICES</th>
-                                        <th scope="col">POSTS</th>
-                                        <th scope="col">See</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr class="community-post-type">
-                                        <th><span>Game Concept</span></th>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">
-                                            <div class="community-post-wrap">
-                                                <div class="community-post-content">
-                                                    <a href="#">Electronic game that involves</a>
-                                                    <span>by <a href="#">Tanvir snap</a> Yesterday 12 : 19</span>
-                                                </div>
-                                                <div class="community-post-tag">
-                                                    <a href="#">@All</a>
-                                                </div>
-                                            </div>
-                                        </th>
-                                        <td>3</td>
-                                        <td>4</td>
-                                        <td class="community-bell"><a href="#"><i class="far fa-bell"></i></a></td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">
-                                            <div class="community-post-wrap">
-                                                <div class="community-post-content">
-                                                    <a href="#">A vertically scrolling video</a>
-                                                    <span>by <a href="#">Killer12</a> Yesterday 12 : 19</span>
-                                                </div>
-                                                <div class="community-post-tag">
-                                                    <a href="#">@All</a>
-                                                </div>
-                                            </div>
-                                        </th>
-                                        <td>5</td>
-                                        <td>9</td>
-                                        <td class="community-bell"><a href="#"><i class="far fa-bell"></i></a></td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">
-                                            <div class="community-post-wrap">
-                                                <div class="community-post-content">
-                                                    <a href="#">Electronic game that involves</a>
-                                                    <span>by <a href="#">Tanvir snap</a> Yesterday 12 : 19</span>
-                                                </div>
-                                                <div class="community-post-tag">
-                                                    <a href="#">@All</a>
-                                                    <a href="#">@Design</a>
-                                                </div>
-                                            </div>
-                                        </th>
-                                        <td>7</td>
-                                        <td>12</td>
-                                        <td class="community-bell"><a href="#"><i class="far fa-bell"></i></a></td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                        <div class="table-responsive-xl">
-                            <table class="table">
-                                <tbody>
-                                    <tr class="community-post-type">
-                                        <th><span>Zombie Island</span></th>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">
-                                            <div class="community-post-wrap">
-                                                <div class="community-post-content">
-                                                    <a href="#">Electronic game that involves</a>
-                                                    <span>by <a href="#">Tanvir snap</a> Yesterday 12 : 19</span>
-                                                </div>
-                                                <div class="community-post-tag">
-                                                    <a href="#">@All</a>
-                                                </div>
-                                            </div>
-                                        </th>
-                                        <td>3</td>
-                                        <td>4</td>
-                                        <td class="community-bell"><a href="#"><i class="far fa-bell"></i></a></td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">
-                                            <div class="community-post-wrap">
-                                                <div class="community-post-content">
-                                                    <a href="#">A vertically scrolling video</a>
-                                                    <span>by <a href="#">Killer12</a> Yesterday 12 : 19</span>
-                                                </div>
-                                                <div class="community-post-tag">
-                                                    <a href="#">@Design</a>
-                                                </div>
-                                            </div>
-                                        </th>
-                                        <td>5</td>
-                                        <td>9</td>
-                                        <td class="community-bell"><a href="#"><i class="far fa-bell"></i></a></td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">
-                                            <div class="community-post-wrap">
-                                                <div class="community-post-content">
-                                                    <a href="#">Electronic game that involves</a>
-                                                    <span>by <a href="#">Tanvir snap</a> Yesterday 12 : 19</span>
-                                                </div>
-                                                <div class="community-post-tag">
-                                                    <a href="#">@All</a>
-                                                </div>
-                                            </div>
-                                        </th>
-                                        <td>7</td>
-                                        <td>12</td>
-                                        <td class="community-bell"><a href="#"><i class="far fa-bell"></i></a></td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                        <div class="create-topic">
-                            <span>Viewing 6 topics - (of 7 Total)</span>
-                            <form action="#">
-                                <input type="text" placeholder="Must be logged in to create new topics."/>
-                                <button class="btn">submit</button>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <aside class="community-sidebar">
-                        <div class="widget community-widget mb-30">
-                            <div class="community-widget-title mb-25">
-                                <h5>share public</h5>
-                            </div>
-                            <div class="community-sidebar-social">
-                                <ul>
-                                    <li><a href="#"><i class="fab fa-facebook-f"></i>Share With Facebook</a></li>
-                                    <li><a href="#"><i class="fab fa-twitter"></i>Share With Twitter</a></li>
-                                    <li><a href="#"><i class="fab fa-pinterest-p"></i>Share With Pinterest</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="widget community-widget">
-                            <div class="community-widget-title mb-25">
-                                <h5>new released game</h5>
-                            </div>
-                            <div class="community-sidebar-game">
-                                <ul>
-                                    <li>
-                                        <div class="sidebar-new-game-thumb">
-                                            <a href="#">
-                                                <img src="img/images/sidebar_new_game01.jpg" alt=""/>
-                                            </a>
-                                        </div>
-                                        <div class="sidebar-new-game-content">
-                                            <span>Yesterday 12 : 19</span>
-                                            <h5><a href="#">Sky Warrior Game involves</a></h5>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="sidebar-new-game-thumb">
-                                            <a href="#">
-                                                <img src="img/images/sidebar_new_game02.jpg" alt=""/>
-                                            </a>
-                                        </div>
-                                        <div class="sidebar-new-game-content">
-                                            <span>Yesterday 12 : 19</span>
-                                            <h5><a href="#">Sky Warrior Game involves</a></h5>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="sidebar-new-game-thumb">
-                                            <a href="#">
-                                                <img src="img/images/sidebar_new_game03.jpg" alt=""/>
-                                            </a>
-                                        </div>
-                                        <div class="sidebar-new-game-content">
-                                            <span>Yesterday 12 : 19</span>
-                                            <h5><a href="#">Sky Warrior Game involves</a></h5>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </aside>
-                </div>
-            </div>
+
+        <div class="card-columns">
+          <div class="card p-5 border-0">
+            <img class="card-img-top" src={cardImg} alt="Card image cap"/>
+            <div class="card-img-overlay text-white d-flex flex-column justify-content-center">
+          <h4 class="card-title">Bologna</h4>
+          <h6 class="card-subtitle mb-2">Emilia-Romagna Region, Italy</h6>
+          <p class="card-text">It is people. </p>
+        
+          </div>
+            <div class="tab-caption ">
+                   
+              <div class="tab-text pr-5">
+               <h5 class="tab-heading">Casino</h5>
+               <h3>Craps</h3>
+              </div>
+               
+             </div> 
+          </div>
+          <div class="card  p-5 border-0 ">
+            <img class="card-img-top" src={cardImg1} alt="Card image cap"/>
+            <div class="tab-caption ">
+                   
+              <div class="tab-text pr-5">
+               <h5 class="tab-heading">Casino</h5>
+               <h3>Craps</h3>
+              </div>
+               
+             </div> 
+          </div>
+          <div class="card  p-5 border-0">
+            <img class="card-img-top" src={cardImg2} alt="Card image cap"/>
+            <div class="tab-caption ">
+                   
+              <div class="tab-text pr-5">
+               <h5 class="tab-heading">Casino</h5>
+               <h3>Craps</h3>
+              </div>
+               
+             </div> 
+          </div>
+          <div class="card  p-5 border-0 ">
+            <img class="card-img-top" src={cardImg} alt="Card image cap"/>
+            <div class="tab-caption ">
+                   
+              <div class="tab-text pr-5">
+               <h5 class="tab-heading">Casino</h5>
+               <h3>Craps</h3>
+              </div>
+               
+             </div> 
+          </div>
+          <div class="card  p-5 border-0">
+            <img class="card-img-top" src={cardImg1} alt="Card image cap"/>
+          </div>
+          <div class="card  p-5 border-0">
+            <img class="card-img-top" src={cardImg2} alt="Card image cap"/>
+          </div>
+       
+     
         </div>
-        <div class="community-bg-shape"><img src="img/images/community_bg_shape.png" alt=""/></div>
-    </div>
-    {/* <!-- community-area-end --> */}
+      </div>
+    </section>
+
 
 
 </main>

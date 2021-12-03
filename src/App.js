@@ -9,6 +9,7 @@ import Community from './Pages/Community';
 import Store from './Pages/Store';
 import Contact from './Pages/Contact';
 import Blog from './Pages/Blog';
+import Wallet from './Pages/Wallet';
 import BlogDetails from './Pages/BlogDetails';
 import {BrowserRouter, Route, Switch} from 'react-router-dom';
 
@@ -26,10 +27,10 @@ function App() {
         <Route path="/contact" component= {Contact} />
         <Route path="/overview" component= {Overview} />
         <Route path="/community" component= {Community} />
-        <Route path="/store" component= {Store} />
+        <Route path="/wallet" component= {Wallet} />
         <Route path="/blog" component= {Blog} />
         <Route path="/blogdetails" component={BlogDetails} />
-        <Route path="/contact" component= {Contact} />
+        <Route path="/contact" component={Contact} />
         </Switch>
         
             </div>

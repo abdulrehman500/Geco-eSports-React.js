@@ -6,7 +6,8 @@ import {Link} from 'react-router-dom';
 
 import streaming_bg from "./img/bg/streaming_bg.jpg";
 import streaming_bg02 from "./img/bg/streaming_bg02.jpg";
-import streaming_bg11 from "./img/bg/makes_chair_bg.jpg";
+import banner1 from "./img/bg/banner2.jpg";
+import divider from "./img/bg/devider.png";
 // import streaming_bg11 from "./img/bg/banner1.";
 import h6Logo from "./img/logo/gamelogo.png";
 import mask1 from "./img/logo/mask1.png";
@@ -16,38 +17,9 @@ import card1 from "./img/logo/helmet.png";
 import card2 from "./img/logo/edit-tools.png";
 import card3 from "./img/logo/assassins-creed.png";
 import cards from "./img/logo/cards.png";
-// import banner from "./img/logo/banner.png";
+import cards1 from "./img/images/card1.png";
 import thirdBanner from "./img/slider/third_banner_img.png";
-// import thirdBanner from "./img/slider/third_banner_img.png";
-// import thirdAboutBanner from "./img/images/third_about_img.png";
-// import infoBoxHover from "./img/bg/my_info_box_hover.png";
-// import infoBoxAward from "./img/images/about_award.png";
-// import infoBoxHover1 from "./img/bg/my_info_box_hover.png";
-// import thirdAboutBannerShadow from "./img/images/third_about_img_shadow.png";
-// import gameGallery01 from "./img/images/game_gallery_01.png";
-// import gameGallery02 from "./img/images/game_gallery_02.png";
-// import gameGallery03 from "./img/images/game_gallery_03.png";
-// import gameGallery04 from "./img/images/game_gallery_04.png";
-// import clanLogo from "./img/images/clan_logo.png";
-// import matchBox from "./img/bg/my_match_box.png";
-// import myMatchBox from "./img/team/my_match_clan01.png";
-// import myMatchVS from "./img/team/match_vs02.png";
-// import myMatchClan from "./img/team/my_match_clan03.png";
-// import myMatchClan1 from "./img/team/match_vs02.png";
-// import myMatchClan2 from "./img/team/my_match_clan04.png";
-// import myMatchClan95 from "./img/team/my_match_clan05.png";
-// import myMatchClan05 from "./img/team/match_vs02.png";
-// import myMatchClan06 from "./img/team/my_match_clan06.png";
-// import donationImg from "./img/images/dontaion_img.png";
-// import teamImg from "./img/team/team_img01.png";
-// import teamImg2 from "./img/team/team_img02.png";
-// import teamImg3 from "./img/team/team_img03.png";
-// import teamImg4 from "./img/team/team_img04.png";
-// import brandLogo01 from "./img/brand/t_brand_logo01.png";
-// import brandLogo02 from "./img/brand/t_brand_logo02.png";
-// import brandLogo03 from "./img/brand/t_brand_logo03.png";
-// import brandLogo04 from "./img/brand/t_brand_logo04.png";
-// import brandLogo05 from "./img/brand/t_brand_logo05.png";
+
 export default function home() {
     return (
         <div>
@@ -73,29 +45,7 @@ export default function home() {
     {/* <!-- slider-area --> */}
     <section class="slider-area home-four-slider">
     <header class="header-style-four">
-    {/* <div class="header-top-area s-header-top-area d-none d-lg-block">
-        <div class="container custom-container-two">
-            <div class="row align-items-center">
-                <div class="col-lg-6 d-none d-lg-block">
-                    <div class="header-top-offer">
-                        <p>Exclusive Black Friday ! Offer</p>
-                        <span class="coming-time" data-countdown="2021/3/15"></span>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="header-social">
-                        <span>Follow us on :</span>
-                        <ul>
-                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                            <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
-                            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> */}
+   
     <div id="sticky-header" class="header-four-wrap">
         <div class="container custom-container-two">
             <div class="row">
@@ -108,11 +58,11 @@ export default function home() {
                             <div id="mobile-menu" class="navbar-wrap d-none d-lg-flex">
                                 <ul>
                                     <li><Link to="/"> Home </Link></li>
-                                    <li><Link to="Overview">Overview</Link></li>
-                                    <li><Link to="Community">Community</Link></li>
-                                    <li><Link to="Store">Store</Link></li>
-                                    <li><Link to="Blog">Blog </Link></li>
-                                    <li><Link to="Contact">Contact </Link></li>
+                                    <li><Link to="Contact">Contact US</Link></li>
+                                    <li><Link to="Community">Games  </Link></li>
+                                    <li><Link to="Wallet">Wallet</Link></li>
+                                    <li><Link to="Blog">Profile </Link></li>
+                                  
                             
                                 </ul>
                             </div>
@@ -156,7 +106,7 @@ export default function home() {
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src={streaming_bg02} class="d-block w-100" alt="..."/>
+      <img  src={banner1} class="d-block w-100" alt="..."/>
       <div class="carousel-caption d-none d-md-block">
       <div class="slider-content">
                                 <h6 data-animation="fadeInUp" data-delay=".4s">world gaming</h6>
@@ -179,7 +129,18 @@ export default function home() {
                             </div>
       </div>
     </div>
- 
+    <div class="carousel-item">
+      <img src={streaming_bg02}  class="d-block w-100" alt="..."/>
+      <div class="carousel-caption d-none d-md-block">
+      <div class="slider-content">
+                                <h6 data-animation="fadeInUp" data-delay=".4s">world gaming</h6>
+                                <h2 data-animation="fadeInUp" data-delay=".4s">Texas Hold 
+ <span>'em Poker</span> ONLINE</h2>
+                                <p data-animation="fadeInUp" data-delay=".6s">Find technology or people for digital projects in public sector.</p>
+                                <a href="#" class="btn btn-style-two" data-animation="fadeInUp" data-delay=".8s">READ MORE</a>
+                            </div>
+      </div>
+    </div>
   </div>
   <button class="carousel-control-prev" type="button" data-target="#carouselExampleCaptions" data-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -210,6 +171,110 @@ export default function home() {
             </div>
          
         </div> */}
+    </section>
+
+    <section>
+
+        <div className="container">
+        <div className="text-center">
+        <div className="top-heading mt-5 mb-5">
+            <h2 className="">RELEASED GAMES</h2>
+            <p>Compete with 100 players on a remote island for winner takes showdown
+knows issues where certain skin strategic</p>
+<img className="img-fluid" src={divider}/> 
+            
+        </div>
+
+        <div class="cards-main-warapper">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="rating-section d-flex">
+                    <img src={cards1} alt=""/>
+                    <div class="rating-inner">
+                        <div class="rating-stars"><span>Rating :  </span>   
+                            <svg xmlns="http://www.w3.org/2000/svg" width="22.025" height="21.107" viewBox="0 0 22.025 21.107">
+                                <path id="star_1_" data-name="star (1)" d="M21.968,8.468a1.168,1.168,0,0,0-1.008-.8L14.6,7.085,12.089,1.2a1.171,1.171,0,0,0-2.153,0L7.423,7.085l-6.358.577A1.172,1.172,0,0,0,.4,9.711l4.805,4.214L3.788,20.167a1.169,1.169,0,0,0,1.741,1.265l5.484-3.277,5.482,3.277a1.17,1.17,0,0,0,1.742-1.265l-1.417-6.242,4.805-4.213a1.171,1.171,0,0,0,.343-1.244Zm0,0" transform="translate(0 -0.491)" fill="#ffc107"></path>
+                              </svg>
+                              
+                            <svg xmlns="http://www.w3.org/2000/svg" width="22.025" height="21.107" viewBox="0 0 22.025 21.107">
+                                <path id="star_1_" data-name="star (1)" d="M21.968,8.468a1.168,1.168,0,0,0-1.008-.8L14.6,7.085,12.089,1.2a1.171,1.171,0,0,0-2.153,0L7.423,7.085l-6.358.577A1.172,1.172,0,0,0,.4,9.711l4.805,4.214L3.788,20.167a1.169,1.169,0,0,0,1.741,1.265l5.484-3.277,5.482,3.277a1.17,1.17,0,0,0,1.742-1.265l-1.417-6.242,4.805-4.213a1.171,1.171,0,0,0,.343-1.244Zm0,0" transform="translate(0 -0.491)" fill="#ffc107"></path>
+                              </svg>
+                              
+                            <svg xmlns="http://www.w3.org/2000/svg" width="22.025" height="21.107" viewBox="0 0 22.025 21.107">
+                                <path id="star_1_" data-name="star (1)" d="M21.968,8.468a1.168,1.168,0,0,0-1.008-.8L14.6,7.085,12.089,1.2a1.171,1.171,0,0,0-2.153,0L7.423,7.085l-6.358.577A1.172,1.172,0,0,0,.4,9.711l4.805,4.214L3.788,20.167a1.169,1.169,0,0,0,1.741,1.265l5.484-3.277,5.482,3.277a1.17,1.17,0,0,0,1.742-1.265l-1.417-6.242,4.805-4.213a1.171,1.171,0,0,0,.343-1.244Zm0,0" transform="translate(0 -0.491)" fill="#ffc107"></path>
+                              </svg>
+                              
+                            <svg xmlns="http://www.w3.org/2000/svg" width="22.025" height="21.107" viewBox="0 0 22.025 21.107">
+                                <path id="star_1_" data-name="star (1)" d="M21.968,8.468a1.168,1.168,0,0,0-1.008-.8L14.6,7.085,12.089,1.2a1.171,1.171,0,0,0-2.153,0L7.423,7.085l-6.358.577A1.172,1.172,0,0,0,.4,9.711l4.805,4.214L3.788,20.167a1.169,1.169,0,0,0,1.741,1.265l5.484-3.277,5.482,3.277a1.17,1.17,0,0,0,1.742-1.265l-1.417-6.242,4.805-4.213a1.171,1.171,0,0,0,.343-1.244Zm0,0" transform="translate(0 -0.491)" fill="#ffc107"></path>
+                              </svg>
+                              
+                            <svg xmlns="http://www.w3.org/2000/svg" width="22.025" height="21.107" viewBox="0 0 22.025 21.107">
+                                <path id="star_1_" data-name="star (1)" d="M21.968,8.468a1.168,1.168,0,0,0-1.008-.8L14.6,7.085,12.089,1.2a1.171,1.171,0,0,0-2.153,0L7.423,7.085l-6.358.577A1.172,1.172,0,0,0,.4,9.711l4.805,4.214L3.788,20.167a1.169,1.169,0,0,0,1.741,1.265l5.484-3.277,5.482,3.277a1.17,1.17,0,0,0,1.742-1.265l-1.417-6.242,4.805-4.213a1.171,1.171,0,0,0,.343-1.244Zm0,0" transform="translate(0 -0.491)" fill="#ffc107"></path>
+                              </svg>
+                              
+                        
+                        </div>
+
+                        <div class="poker-bar">
+                          <h6>Poker</h6>
+                        </div>
+
+                        <div class="tab-inner-text">
+                          <h6>Category  : <span>Virtual Game    </span></h6>
+                          <h6 class="pt-2">Model  : <span>   Complete 100 Players </span></h6>
+                          <h6 class="pt-2">Controller : <span>PlayStation 5, Xbox, PS4   </span></h6>
+                        </div>
+
+                        <div class="tab-inner-paragrape">
+                       <p>Compete with 100 players on a remote island
+                        for winner takes showdown knows issues 
+                        where certain skin strategic</p>
+                        </div>
+                        <div class="tab-hexagon">Play Now</div> 
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+              <div class="cards-warapper">
+                <div class="released-card1 ">
+                  <div class="tab-caption ">
+                   
+                   <div class="tab-text">
+                    <h5 class="tab-heading">Casino</h5>
+                    <h3>BlackJack</h3>
+                   </div>
+                    
+                  </div>  
+                </div>
+                <div class="released-card2 ">
+
+                  <div class="tab-caption ">
+                   
+                    <div class="tab-text pr-5">
+                     <h5 class="tab-heading">Casino</h5>
+                     <h3>Craps</h3>
+                    </div>
+                     
+                   </div> 
+
+                </div>
+                <div class="released-card3 ">
+                  <div class="tab-caption ">
+                   
+                    <div class="tab-text">
+                     <h5 class="tab-heading">Casino</h5>
+                     <h3>Roulette</h3>
+                    </div>
+                     
+                   </div> 
+
+                </div>
+              </div>
+            </div>
+        </div>
+        </div>
+        </div>
+        </div>
     </section>
     {/* <!-- slider-area-end --> */}
 
