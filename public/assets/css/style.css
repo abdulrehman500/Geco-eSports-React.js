@@ -7526,4 +7526,134 @@ border-radius: 12px;
     padding: 0 0 0 0;
      height:700px;
 }
+.myWalletCard h5 {
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-weight: 500;
+font-size: 35px;
+border-bottom: 3px solid #FF8800;
+width: 189px;
+padding-bottom: 12px;
+}
+.media-custom {
+	/* border: 2px solid red; */
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+}
+.myWalletCard {
+	padding: 12px;
+	margin-top: 13px;
+	border-radius: 7px;
+background-color: #F1F1F1;
+/* From https://css.glass */
+background: rgba(255, 255, 255, 0.84);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(1.7px);
+-webkit-backdrop-filter: blur(1.7px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.row-cards {
+	margin-top: 12px !important;
+display: flex;
+justify-content: space-around!important;
+}
+.bits-cards {
+	background-color: #022A3A;
+	border-radius: 12px;
+	padding: 12px;
+	width: 25%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.bits-cards h6 {
+	color: #FFC400;
+	font-size: 22px;
+}
+.my-Card {
+	padding: 12px;
+	margin-top: 13px;
+	border-radius: 7px;
+background-color: #F1F1F1;
+background: rgba(0, 0, 0, 0.84);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(1.7px);
+-webkit-backdrop-filter: blur(1.7px);
+/* border: 1px solid rgba(255, 255, 255, 0.3); */
+}
+.my-Card h5 {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-weight: 500;
+font-size: 35px;
+display: flex;
+width: 189px;
+padding-bottom: 12px;
+}
+.white-board h6 {
+color: #BF1756;
+font-weight: 500;
+
+}
+.white-board {
+	border-radius: 12px;
+	padding: 12px 12px;
+	background-color: whitesmoke;
+}
+.btn-boll-row {
+	display: flex;
+}
+.conversation {
+	padding: 12px;
+	margin-top: 13px;
+	border-radius: 7px;
+background-color: #02ABA0;
+/* From https://css.glass */
+background: rgba(215,72,148,, 0.84);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(215,72,148, 0.1);
+backdrop-filter: blur(1.7px);
+-webkit-backdrop-filter: blur(1.7px);
+}
+.notifications {
+	padding: 12px;
+	margin-top: 13px;
+	border-radius: 7px;
+background-color: #F1F1F1;
+/* From https://css.glass */
+background: rgba(0, 0, 0, 0.44);
+border-radius: 16px;
+height: 90%;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(1.7px);
+-webkit-backdrop-filter: blur(1.7px);
+}
+.conversation h6 {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-weight: 500;
+}
+.btn-boll-row .card-boll1 {
+	background-color: #008A72;
+}
+.btn-boll-row .card-boll2 {
+	background-color: #092141;
+}
+.btn-boll-row .card-boll3 {
+	background-color: #008A72;
+}
+.btn-boll-row .card-boll4 {
+	background-color: #008A72;
+}
+.btn-boll-row .card-boll {
+
+border-radius: 34px;
+padding: 6px;
+text-align: center;
+}
+.btn-boll-row {
+	margin-bottom: 22px;
+	margin-top: 22px;
+	display: flex;
+	justify-content: space-around!important;
+}
 /* ------------------------------------------------------------------------------------------WALLET-- */
